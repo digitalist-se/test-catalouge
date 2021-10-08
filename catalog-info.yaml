@@ -9,9 +9,3 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
     kraut.se/library-list-site: verksamt-se
----
-apiVersion: backstage.io/v1alpha1
-kind: Location
-metadata:
-  name: catalouge
-  description: A collection of teams and groups
