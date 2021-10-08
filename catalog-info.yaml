@@ -2,11 +2,16 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: testcatalouge
-  description: Drupal backend website for ST members
-spec:
+  description: A test
   type: service
   lifecycle: test
   owner: user:mikkeschiren
   annotations:
     backstage.io/techdocs-ref: dir:.
     kraut.se/library-list-site: verksamt-se
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: catalouge
+  description: A collection of teams and groups
