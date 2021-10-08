@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: test-catalouge.
+  name: test-catalouge
   description: Drupal backend website for ST members
 spec:
   type: service
