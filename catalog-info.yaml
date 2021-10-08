@@ -9,4 +9,4 @@ spec:
   owner: user:mikkeschiren
   annotations:
     backstage.io/techdocs-ref: dir:.
-    kraut.se/library-list-site: verksamt-se
+    kraut.se/library-list-site: "verksamt"
