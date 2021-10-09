@@ -2,11 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: testcatalouge
-  description: Drupal backend website for ST members
-spec:
+  description: A test
   type: service
   lifecycle: test
   owner: user:mikkeschiren
   annotations:
     backstage.io/techdocs-ref: dir:.
-    kraut.se/library-list-site: "verksamt"
+    kraut.se/library-list-site: "verksamt-se"
+    foo.bar/lorem: bar
