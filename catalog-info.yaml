@@ -9,3 +9,4 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
     kraut.se/library-list-site: verksamt-se
+    foo.bar/lorem: bar
