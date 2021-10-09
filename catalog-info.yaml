@@ -3,6 +3,7 @@ kind: Component
 metadata:
   name: testcatalouge
   description: A test
+spec:  
   type: service
   lifecycle: test
   owner: user:mikkeschiren
