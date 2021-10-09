@@ -1,13 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: testcatalouge
-  description: A test
-spec:  
-  type: service
-  lifecycle: test
-  owner: user:mikkeschiren
+  name: foo
+  description: Another
   annotations:
     backstage.io/techdocs-ref: dir:.
     kraut.se/library-list-site: "verksamt-se"
     foo.bar/lorem: bar
+spec:
+  type: service
+  lifecycle: production
+  owner: foo
+  system: bar
